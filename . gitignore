@@ -1,0 +1,144 @@
+# Python-specific .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+__pycache__
+*.pyc
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# PyCharm project settings
+.idea/
+
+# Visual Studio Code settings
+.vscode/
+
+# Sublime Text settings
+.sublime-project
+.sublime-workspace
+
+# IPython Notebook settings
+.ipynb_checkpoints
+
+# Jupyter Notebook settings
+.ipynb_checkpoints
+
+# matplotlib
+examples/
+dist/
+build/
+__pycache__/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Python bytecode
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python environment
+.env
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+
+# React-specific .gitignore
+# dependencies
+node_modules/
+package-lock.json
+
+# testing
+coverage/
+  
+# production
+build/
+
+# misc
+.env.local
+.env.development
+.env.test
+.env.production
+.env
+
+# local files
+.vscode/
+.DS_Store
+
+# IDE files
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# user files
+.idea/
+.vscode/
