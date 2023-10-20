@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "145029c8-f3d1-401b-93ea-8b046a3fc80e",
+		"name": "Ticketing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "BE",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\n    \"type\": \"theater\",\n    \"theaters\": [\n      {\n        \"theaterName\": \"Cineplex Theater\",\n        \"theaterRating\": \"4\",\n        \"movies\": [\n          {\n            \"name\": \"Man of Steel (film)\",\n            \"showtimes\": {\n              \"12:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"03:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"06:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"09:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$12.00\"\n          },\n          {\n            \"name\": \"Batman v Superman: Dawn of Justice\",\n            \"ticketPrice\": \"$14.00\",\n            \"showtimes\": {\n              \"01:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"04:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"07:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            }\n          },\n          {\n            \"name\": \"Suicide Squad (2016 film)\",\n            \"showtimes\": {\n              \"02:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"05:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"08:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$11.50\"\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"Starlight Cinema\",\n        \"theaterRating\": \"3.2\",\n        \"movies\": [\n          {\n            \"name\": \"Wonder Woman (2017 film)\",\n            \"showtimes\": {\n              \"01:30 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"04:30 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"07:30 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$13.50\"\n          },\n          {\n            \"name\": \"Justice League (film)\",\n            \"showtimes\": {\n              \"12:45 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"03:45 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"06:45 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$13.00\"\n          },\n          {\n            \"name\": \"Aquaman (film)\",\n            \"showtimes\": {\n              \"12:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"03:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"06:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$12.50\"\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"City CinemaPlex\",\n        \"theaterRating\": \"4.8\",\n        \"movies\": [\n          {\n            \"name\": \"Shazam! (film)\",\n            \"showtimes\": {\n              \"01:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"04:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"07:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$13.00\"\n          },\n          {\n            \"name\": \"Birds of Prey (2020 film)\",\n            \"showtimes\": {\n              \"12:30 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"03:30 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"06:30 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$12.50\"\n          },\n          {\n            \"name\": \"Wonder Woman 1984\",\n            \"showtimes\": {\n              \"01:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"04:30 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"07:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$14.00\"\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"Royal Cinemas\",\n        \"theaterRating\": \"2.9\",\n        \"movies\": [\n          {\n            \"name\": \"Zack Snyder's Justice League\",\n            \"showtimes\": {\n              \"12:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"03:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"06:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$15.00\"\n          },\n          {\n            \"name\": \"The Suicide Squad (film)\",\n            \"showtimes\": {\n              \"02:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"05:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"08:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$13.50\"\n          },\n          {\n            \"name\": \"Black Adam (film)\",\n            \"showtimes\": {\n              \"02:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"05:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"08:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$12.50\"\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"Grand Theater\",\n        \"theaterRating\": \"5\",\n        \"movies\": [\n          {\n            \"name\": \"Shazam! Fury of the Gods\",\n            \"showtimes\": {\n              \"02:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"05:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"08:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$14.00\"\n          },\n          {\n            \"name\": \"The Flash (film)\",\n            \"showtimes\": {\n              \"02:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"05:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"08:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$13.50\"\n          },\n          {\n            \"name\": \"Blue Beetle (film)\",\n            \"showtimes\": {\n              \"02:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"05:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"08:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$12.00\"\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"Mega Cineplex\",\n        \"theaterRating\": \"3.2\",\n        \"movies\": [\n          {\n            \"name\": \"Iron Man (2008 film)\",\n            \"showtimes\": {\n              \"12:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"03:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"06:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$13.50\"\n          },\n          {\n            \"name\": \"The Incredible Hulk (film)\",\n            \"showtimes\": {\n              \"01:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"04:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"07:00 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$13.00\"\n          },\n          {\n            \"name\": \"Iron Man 2\",\n            \"showtimes\": {\n              \"02:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"05:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              },\n              \"08:15 PM\": {\n                \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n              }\n            },\n            \"ticketPrice\": \"$14.00\"\n          }\n        ]\n      }\n    ]\n  }"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Movies",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"type\": \"movie\",\n    \"movies\": [\n        {\n            \"id\": 1,\n            \"name\": \"Man of Steel (film)\",\n            \"duration\": \"2 hours 23 minutes\",\n            \"ratings\": 4.3,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Man_of_Steel_%28film%29_poster.jpg/220px-Man_of_Steel_%28film%29_poster.jpg\",\n            \"description\": \"Superman's origin story and battle against General Zod.\",\n            \"releaseDate\": \"June 14, 2013\",\n            \"reviews\": [\n                {\n                    \"user\": \"User1\",\n                    \"rating\": 4.0,\n                    \"comment\": \"Great movie!\"\n                },\n                {\n                    \"user\": \"User2\",\n                    \"rating\": 5.0,\n                    \"comment\": \"Awesome film!\"\n                }\n            ]\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Batman v Superman: Dawn of Justice\",\n            \"duration\": \"2 hours 31 minutes\",\n            \"ratings\": 4.1,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Batman_v_Superman_Dawn_of_Justice_poster.jpg/220px-Batman_v_Superman_Dawn_of_Justice_poster.jpg\",\n            \"description\": \"The clash between Batman and Superman with the threat of Lex Luthor.\",\n            \"releaseDate\": \"March 25, 2016\",\n            \"reviews\": [\n                {\n                    \"user\": \"User3\",\n                    \"rating\": 4.5,\n                    \"comment\": \"Epic showdown!\"\n                },\n                {\n                    \"user\": \"User4\",\n                    \"rating\": 3.8,\n                    \"comment\": \"Decent movie.\"\n                }\n            ]\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Suicide Squad (2016 film)\",\n            \"duration\": \"2 hours 3 minutes\",\n            \"ratings\": 3.9,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Suicide_Squad_%282016_film%29_poster.png/220px-Suicide_Squad_%282016_film%29_poster.png\",\n            \"description\": \"A group of antiheroes team up for a dangerous mission.\",\n            \"releaseDate\": \"August 5, 2016\",\n            \"reviews\": [\n                {\n                    \"user\": \"User5\",\n                    \"rating\": 3.7,\n                    \"comment\": \"Fun but chaotic.\"\n                },\n                {\n                    \"user\": \"User6\",\n                    \"rating\": 4.2,\n                    \"comment\": \"Harley Quinn stole the show!\"\n                }\n            ]\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Wonder Woman (2017 film)\",\n            \"duration\": \"2 hours 21 minutes\",\n            \"ratings\": 4.5,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/b/b0/Wonder_Woman_%282017_film%29_poster.jpg\",\n            \"description\": \"Diana Prince's journey to becoming Wonder Woman.\",\n            \"releaseDate\": \"June 2, 2017\",\n            \"reviews\": [\n                {\n                    \"user\": \"User7\",\n                    \"rating\": 4.7,\n                    \"comment\": \"Gal Gadot is amazing!\"\n                },\n                {\n                    \"user\": \"User8\",\n                    \"rating\": 4.3,\n                    \"comment\": \"Great superhero origin story.\"\n                }\n            ]\n        },\n        {\n            \"id\": 5,\n            \"name\": \"Justice League (film)\",\n            \"duration\": \"2 hours 0 minutes\",\n            \"ratings\": 4.0,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/6/6b/Justice_League_%28film%29_poster.jpg\",\n            \"description\": \"Superheroes unite to save the world from a catastrophic threat.\",\n            \"releaseDate\": \"November 17, 2017\",\n            \"reviews\": [\n                {\n                    \"user\": \"User9\",\n                    \"rating\": 3.5,\n                    \"comment\": \"Mixed bag, but fun.\"\n                },\n                {\n                    \"user\": \"User10\",\n                    \"rating\": 4.2,\n                    \"comment\": \"Enjoyed the team-up.\"\n                }\n            ]\n        },\n        {\n            \"id\": 6,\n            \"name\": \"Aquaman (film)\",\n            \"duration\": \"2 hours 23 minutes\",\n            \"ratings\": 4.2,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/e/ed/Aquaman_%28film%29_poster.jpg\",\n            \"description\": \"Arthur Curry's journey to become Aquaman and protect Atlantis.\",\n            \"releaseDate\": \"December 21, 2018\",\n            \"reviews\": [\n                {\n                    \"user\": \"User11\",\n                    \"rating\": 4.4,\n                    \"comment\": \"Visually stunning!\"\n                },\n                {\n                    \"user\": \"User12\",\n                    \"rating\": 3.9,\n                    \"comment\": \"Entertaining underwater adventure.\"\n                }\n            ]\n        },\n        {\n            \"id\": 7,\n            \"name\": \"Shazam! (film)\",\n            \"duration\": \"2 hours 12 minutes\",\n            \"ratings\": 4.4,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia.org/wiki/c/c2/Shazam%21_%28film%29_poster.jpg\",\n            \"description\": \"A teenager transforms into an adult superhero with magical powers.\",\n            \"releaseDate\": \"April 5, 2019\",\n            \"reviews\": [\n                {\n                    \"user\": \"User13\",\n                    \"rating\": 4.3,\n                    \"comment\": \"Hilarious and heartwarming.\"\n                },\n                {\n                    \"user\": \"User14\",\n                    \"rating\": 4.5,\n                    \"comment\": \"Zachary Levi is perfect as Shazam!\"\n                }\n            ]\n        },\n        {\n            \"id\": 8,\n            \"name\": \"Birds of Prey (2020 film)\",\n            \"duration\": \"1 hour 49 minutes\",\n            \"ratings\": 3.9,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/1/1c/Birds_of_Prey_%282020_film%29_poster.jpg\",\n            \"description\": \"Harley Quinn and a group of vigilantes team up to save a young girl.\",\n            \"releaseDate\": \"February 7, 2020\",\n            \"reviews\": [\n                {\n                    \"user\": \"User15\",\n                    \"rating\": 3.8,\n                    \"comment\": \"Fun but a bit chaotic.\"\n                },\n                {\n                    \"user\": \"User16\",\n                    \"rating\": 4.0,\n                    \"comment\": \"Margot Robbie shines as Harley Quinn.\"\n                }\n            ]\n        },\n        {\n            \"id\": 9,\n            \"name\": \"Wonder Woman 1984\",\n            \"duration\": \"2 hours 31 minutes\",\n            \"ratings\": 3.8,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/4/4f/Wonder_Woman_1984_poster.png\",\n            \"description\": \"Wonder Woman faces new challenges in the 1980s.\",\n            \"releaseDate\": \"December 25, 2020\",\n            \"reviews\": [\n                {\n                    \"user\": \"User17\",\n                    \"rating\": 3.5,\n                    \"comment\": \"Decent sequel.\"\n                },\n                {\n                    \"user\": \"User18\",\n                    \"rating\": 4.2,\n                    \"comment\": \"Gal Gadot is always amazing as Wonder Woman.\"\n                }\n            ]\n        },\n        {\n            \"id\": 10,\n            \"name\": \"Zack Snyder's Justice League\",\n            \"duration\": \"4 hours 2 minutes\",\n            \"ratings\": 4.7,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia.org/wiki/6/60/Zack_Snyder%27s_Justice_League.jpg\",\n            \"description\": \"A director's cut of the Justice League movie with additional footage.\",\n            \"releaseDate\": \"March 18, 2021\",\n            \"reviews\": [\n                {\n                    \"user\": \"User19\",\n                    \"rating\": 4.8,\n                    \"comment\": \"Epic and long, but worth it!\"\n                },\n                {\n                    \"user\": \"User20\",\n                    \"rating\": 4.6,\n                    \"comment\": \"A much-improved version of the original.\"\n                }\n            ]\n        },\n        {\n            \"id\": 11,\n            \"name\": \"The Suicide Squad (film)\",\n            \"duration\": \"2 hours 12 minutes\",\n            \"ratings\": 4.2,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/0/06/The_Suicide_Squad_%28film%29_poster.jpg\",\n            \"description\": \"A new team of antiheroes embarks on a dangerous mission.\",\n            \"releaseDate\": \"August 5, 2021\",\n            \"reviews\": [\n                {\n                    \"user\": \"User21\",\n                    \"rating\": 4.0,\n                    \"comment\": \"Wild and violent!\"\n                },\n                {\n                    \"user\": \"User22\",\n                    \"rating\": 4.4,\n                    \"comment\": \"James Gunn's touch is evident.\"\n                }\n            ]\n        },\n        {\n            \"id\": 12,\n            \"name\": \"Black Adam (film)\",\n            \"duration\": \"2 hours 20 minutes\",\n            \"ratings\": 4.1,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Black_Adam_%28film%29_poster.jpg/220px-Black_Adam_%28film%29_poster.jpg\",\n            \"description\": \"The origin story of the antihero Black Adam.\",\n            \"releaseDate\": \"October 21, 2022\",\n            \"reviews\": [\n                {\n                    \"user\": \"User23\",\n                    \"rating\": 3.8,\n                    \"comment\": \"Dwayne Johnson is great, but the story could be better.\"\n                },\n                {\n                    \"user\": \"User24\",\n                    \"rating\": 4.2,\n                    \"comment\": \"An exciting introduction to Black Adam.\"\n                }\n            ]\n        },\n        {\n            \"id\": 13,\n            \"name\": \"Shazam! Fury of the Gods\",\n            \"duration\": \"2 hours 12 minutes\",\n            \"ratings\": 4.3,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Shazam%21_Fury_of_the_Gods_%282023%29_Main_Poster.png/220px-Shazam%21_Fury_of_the_Gods_%282023%29_Main_Poster.png\",\n            \"description\": \"Shazam faces new supernatural threats with his family.\",\n            \"releaseDate\": \"June 2, 2023\",\n            \"reviews\": [\n                {\n                    \"user\": \"User25\",\n                    \"rating\": 4.4,\n                    \"comment\": \"Great family superhero movie.\"\n                },\n                {\n                    \"user\": \"User26\",\n                    \"rating\": 4.5,\n                    \"comment\": \"Zachary Levi is charming as Shazam.\"\n                }\n            ]\n        },\n        {\n            \"id\": 14,\n            \"name\": \"The Flash (film)\",\n            \"duration\": \"2 hours 22 minutes\",\n            \"ratings\": 4.2,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/The_Flash_%28film%29_poster.jpg/220px-The_Flash_%28film%29_poster.jpg\",\n            \"description\": \"Barry Allen becomes the superhero known as The Flash.\",\n            \"releaseDate\": \"November 4, 2022\",\n            \"reviews\": [\n                {\n                    \"user\": \"User27\",\n                    \"rating\": 4.1,\n                    \"comment\": \"Exciting introduction to the Flash.\"\n                },\n                {\n                    \"user\": \"User28\",\n                    \"rating\": 4.3,\n                    \"comment\": \"Ezra Miller is a great Flash.\"\n                }\n            ]\n        },\n        {\n            \"id\": 15,\n            \"name\": \"Blue Beetle (film)\",\n            \"duration\": \"2 hours 0 minutes\",\n            \"ratings\": 3.9,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Blue_Beetle_poster.jpg/220px-Blue_Beetle_poster.jpg\",\n            \"description\": \"A young hero discovers the Blue Beetle scarab and gains powers.\",\n            \"releaseDate\": \"November 18, 2022\",\n            \"reviews\": [\n                {\n                    \"user\": \"User29\",\n                    \"rating\": 3.7,\n                    \"comment\": \"An interesting new hero.\"\n                },\n                {\n                    \"user\": \"User30\",\n                    \"rating\": 4.0,\n                    \"comment\": \"Blue Beetle's story has potential.\"\n                }\n            ]\n        },\n        {\n            \"id\": 16,\n            \"name\": \"Iron Man (2008 film)\",\n            \"duration\": \"2 hours 6 minutes\",\n            \"ratings\": 4.6,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg\",\n            \"description\": \"Tony Stark becomes Iron Man and fights a terrorist organization.\",\n            \"releaseDate\": \"May 2, 2008\",\n            \"reviews\": [\n                {\n                    \"user\": \"User31\",\n                    \"rating\": 4.8,\n                    \"comment\": \"The birth of the MCU!\"\n                },\n                {\n                    \"user\": \"User32\",\n                    \"rating\": 4.5,\n                    \"comment\": \"Robert Downey Jr. is perfect as Iron Man.\"\n                }\n            ]\n        },\n        {\n            \"id\": 17,\n            \"name\": \"The Incredible Hulk (film)\",\n            \"duration\": \"1 hour 52 minutes\",\n            \"ratings\": 3.9,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/f/f0/The_Incredible_Hulk_%28film%29_poster.jpg\",\n            \"description\": \"Bruce Banner transforms into the Hulk and goes on the run.\",\n            \"releaseDate\": \"June 13, 2008\",\n            \"reviews\": [\n                {\n                    \"user\": \"User33\",\n                    \"rating\": 3.5,\n                    \"comment\": \"A different take on the Hulk.\"\n                },\n                {\n                    \"user\": \"User34\",\n                    \"rating\": 4.0,\n                    \"comment\": \"Not as strong as other MCU films.\"\n                }\n            ]\n        },\n        {\n            \"id\": 18,\n            \"name\": \"Iron Man 2\",\n            \"duration\": \"2 hours 4 minutes\",\n            \"ratings\": 4.0,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg\",\n            \"description\": \"Tony Stark faces new challenges as Iron Man.\",\n            \"releaseDate\": \"May 7, 2010\",\n            \"reviews\": [\n                {\n                    \"user\": \"User35\",\n                    \"rating\": 3.9,\n                    \"comment\": \"A decent sequel.\"\n                },\n                {\n                    \"user\": \"User36\",\n                    \"rating\": 4.1,\n                    \"comment\": \"Whiplash is a compelling villain.\"\n                }\n            ]\n        },\n        {\n            \"id\": 19,\n            \"name\": \"Thor (film)\",\n            \"duration\": \"1 hour 55 minutes\",\n            \"ratings\": 4.2,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/9/95/Thor_%28film%29_poster.jpg\",\n            \"description\": \"Thor, the god of thunder, faces banishment on Earth.\",\n            \"releaseDate\": \"May 6, 2011\",\n            \"reviews\": [\n                {\n                    \"user\": \"User37\",\n                    \"rating\": 4.4,\n                    \"comment\": \"A fun introduction to Thor.\"\n                },\n                {\n                    \"user\": \"User38\",\n                    \"rating\": 4.0,\n                    \"comment\": \"Norse mythology meets the MCU.\"\n                }\n            ]\n        },\n        {\n            \"id\": 20,\n            \"name\": \"Captain America: The First Avenger\",\n            \"duration\": \"2 hours 4 minutes\",\n            \"ratings\": 4.3,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg\",\n            \"description\": \"Steve Rogers becomes Captain America during World War II.\",\n            \"releaseDate\": \"July 22, 2011\",\n            \"reviews\": [\n                {\n                    \"user\": \"User39\",\n                    \"rating\": 4.2,\n                    \"comment\": \"A patriotic hero's journey.\"\n                },\n                {\n                    \"user\": \"User40\",\n                    \"rating\": 4.4,\n                    \"comment\": \"Chris Evans is perfect as Cap.\"\n                }\n            ]\n        },\n        {\n            \"id\": 21,\n            \"name\": \"The Avengers (2012 film)\",\n            \"duration\": \"2 hours 23 minutes\",\n            \"ratings\": 4.6,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg\",\n            \"description\": \"Superheroes team up to battle Loki and his army.\",\n            \"releaseDate\": \"May 4, 2012\",\n            \"reviews\": [\n                {\n                    \"user\": \"User41\",\n                    \"rating\": 4.7,\n                    \"comment\": \"An epic superhero ensemble.\"\n                },\n                {\n                    \"user\": \"User42\",\n                    \"rating\": 4.5,\n                    \"comment\": \"Joss Whedon's direction shines.\"\n                }\n            ]\n        },\n        {\n            \"id\": 22,\n            \"name\": \"Iron Man 3\",\n            \"duration\": \"2 hours 10 minutes\",\n            \"ratings\": 4.0,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg\",\n            \"description\": \"Tony Stark faces a new threat in the form of the Mandarin.\",\n            \"releaseDate\": \"May 3, 2013\",\n            \"reviews\": [\n                {\n                    \"user\": \"User43\",\n                    \"rating\": 3.9,\n                    \"comment\": \"A decent continuation of the Iron Man story.\"\n                },\n                {\n                    \"user\": \"User44\",\n                    \"rating\": 4.1,\n                    \"comment\": \"The Mandarin twist is interesting.\"\n                }\n            ]\n        },\n        {\n            \"id\": 23,\n            \"name\": \"Thor: The Dark World\",\n            \"duration\": \"1 hour 52 minutes\",\n            \"ratings\": 3.8,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/7/7f/Thor_The_Dark_World_poster.jpg\",\n            \"description\": \"Thor faces a dark elf threat and reunites with Jane Foster.\",\n            \"releaseDate\": \"November 8, 2013\",\n            \"reviews\": [\n                {\n                    \"user\": \"User45\",\n                    \"rating\": 3.7,\n                    \"comment\": \"A weaker entry in the MCU.\"\n                },\n                {\n                    \"user\": \"User46\",\n                    \"rating\": 4.0,\n                    \"comment\": \"Loki is still a highlight.\"\n                }\n            ]\n        },\n        {\n            \"id\": 24,\n            \"name\": \"Captain America: The Winter Soldier\",\n            \"duration\": \"2 hours 16 minutes\",\n            \"ratings\": 4.4,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/9/9e/Captain_America_The_Winter_Soldier_poster.jpg\",\n            \"description\": \"Captain America battles a new threat within S.H.I.E.L.D.\",\n            \"releaseDate\": \"April 4, 2014\",\n            \"reviews\": [\n                {\n                    \"user\": \"User47\",\n                    \"rating\": 4.5,\n                    \"comment\": \"A thrilling espionage thriller.\"\n                },\n                {\n                    \"user\": \"User48\",\n                    \"rating\": 4.3,\n                    \"comment\": \"Winter Soldier is a great antagonist.\"\n                }\n            ]\n        },\n        {\n            \"id\": 25,\n            \"name\": \"Guardians of the Galaxy (film)\",\n            \"duration\": \"2 hours 1 minute\",\n            \"ratings\": 4.5,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg\",\n            \"description\": \"A group of misfits becomes unlikely heroes to save the galaxy.\",\n            \"releaseDate\": \"August 1, 2014\",\n            \"reviews\": [\n                {\n                    \"user\": \"User49\",\n                    \"rating\": 4.6,\n                    \"comment\": \"A hilarious and heartwarming space adventure.\"\n                },\n                {\n                    \"user\": \"User50\",\n                    \"rating\": 4.7,\n                    \"comment\": \"I am Groot!\"\n                }\n            ]\n        },\n        {\n            \"id\": 26,\n            \"name\": \"Avengers: Age of Ultron\",\n            \"duration\": \"2 hours 21 minutes\",\n            \"ratings\": 4.3,\n            \"coverImageUrl\": \"https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg\",\n            \"description\": \"The Avengers face an AI villain, Ultron.\",\n            \"releaseDate\": \"May 1, 2015\",\n            \"reviews\": [\n                {\n                    \"user\": \"User51\",\n                    \"rating\": 4.2,\n                    \"comment\": \"A solid sequel with great action.\"\n                },\n                {\n                    \"user\": \"User52\",\n                    \"rating\": 4.4,\n                    \"comment\": \"Ultron is a memorable villain.\"\n                }\n            ]\n        }\n    ]\n}"
+								},
+								"url": {
+									"raw": "http://127.0.0.1:5000/create",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"create"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Create Theaters",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"type\": \"theater\",\n    \"object\": [\n      {\n        \"theaterName\": \"Cineplex Theater\",\n        \"theaterRating\" : \"4\",\n        \"movies\": [\n          {\n            \"name\": \"Man of Steel (film)\",\n            \"showtimes\": [\"12:00 PM\", \"3:00 PM\", \"6:00 PM\", \"9:00 PM\"],\n            \"ticketPrice\": \"$12.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Batman v Superman: Dawn of Justice\",\n            \"showtimes\": [\"1:00 PM\", \"4:00 PM\", \"7:00 PM\"],\n            \"ticketPrice\": \"$14.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Suicide Squad (2016 film)\",\n            \"showtimes\": [\"2:00 PM\", \"5:00 PM\", \"8:00 PM\"],\n            \"ticketPrice\": \"$11.50\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"Starlight Cinema\",\n        \"theaterRating\" : \"3.2\",\n        \"movies\": [\n          {\n            \"name\": \"Wonder Woman (2017 film)\",\n            \"showtimes\": [\"1:30 PM\", \"4:30 PM\", \"7:30 PM\"],\n            \"ticketPrice\": \"$13.50\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Justice League (film)\",\n            \"showtimes\": [\"12:45 PM\", \"3:45 PM\", \"6:45 PM\"],\n            \"ticketPrice\": \"$13.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Aquaman (film)\",\n            \"showtimes\": [\"12:00 PM\", \"3:00 PM\", \"6:00 PM\"],\n            \"ticketPrice\": \"$12.50\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"City CinemaPlex\",\n        \"theaterRating\" : \"4.8\",\n        \"movies\": [\n          {\n            \"name\": \"Shazam! (film)\",\n            \"showtimes\": [\"1:15 PM\", \"4:15 PM\", \"7:15 PM\"],\n            \"ticketPrice\": \"$13.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Birds of Prey (2020 film)\",\n            \"showtimes\": [\"12:30 PM\", \"3:30 PM\", \"6:30 PM\"],\n            \"ticketPrice\": \"$12.50\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Wonder Woman 1984\",\n            \"showtimes\": [\"1:00 PM\", \"4:00 PM\", \"7:00 PM\"],\n            \"ticketPrice\": \"$14.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"Royal Cinemas\",\n        \"theaterRating\" : \"2.9\",\n        \"movies\": [\n          {\n            \"name\": \"Zack Snyder's Justice League\",\n            \"showtimes\": [\"12:15 PM\", \"3:15 PM\", \"6:15 PM\"],\n            \"ticketPrice\": \"$15.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"The Suicide Squad (film)\",\n            \"showtimes\": [\"2:15 PM\", \"5:15 PM\", \"8:15 PM\"],\n            \"ticketPrice\": \"$13.50\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Black Adam (film)\",\n            \"showtimes\": [\"2:30 PM\", \"5:30 PM\", \"8:30 PM\"],\n            \"ticketPrice\": \"$12.50\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"Grand Theater\",\n        \"theaterRating\" : \"5\",\n        \"movies\": [\n          {\n            \"name\": \"Shazam! Fury of the Gods\",\n            \"showtimes\": [\"12:45 PM\", \"3:45 PM\", \"6:45 PM\"],\n            \"ticketPrice\": \"$14.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"The Flash (film)\",\n            \"showtimes\": [\"1:30 PM\", \"4:30 PM\", \"7:30 PM\"],\n            \"ticketPrice\": \"$13.50\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Blue Beetle (film)\",\n            \"showtimes\": [\"12:00 PM\", \"3:00 PM\", \"6:00 PM\"],\n            \"ticketPrice\": \"$12.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          }\n        ]\n      },\n      {\n        \"theaterName\": \"Mega Cineplex\",\n        \"theaterRating\" : \"3.2\",\n        \"movies\": [\n          {\n            \"name\": \"Iron Man (2008 film)\",\n            \"showtimes\": [\"12:30 PM\", \"3:30 PM\", \"6:30 PM\"],\n            \"ticketPrice\": \"$13.50\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"The Incredible Hulk (film)\",\n            \"showtimes\": [\"12:15 PM\", \"3:15 PM\", \"6:15 PM\"],\n            \"ticketPrice\": \"$13.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          },\n          {\n            \"name\": \"Iron Man 2\",\n            \"showtimes\": [\"1:00 PM\", \"4:00 PM\", \"7:00 PM\"],\n            \"ticketPrice\": \"$14.00\",\n            \"occupiedSeats\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n          }\n        ]\n      }\n    ]\n  }\n  "
+								},
+								"url": {
+									"raw": "http://127.0.0.1:5000/create",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"create"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:5000/get_all?request=movie",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"get_all"
+							],
+							"query": [
+								{
+									"key": "request",
+									"value": "movie"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:5000/get?name=Cineplex Theater&request=theater",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"get"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Cineplex Theater",
+									"description": "Theater"
+								},
+								{
+									"key": "request",
+									"value": "theater",
+									"description": "Theater"
+								},
+								{
+									"key": "name",
+									"value": "Man of Steel (film)",
+									"description": "Movie",
+									"disabled": true
+								},
+								{
+									"key": "request",
+									"value": "movie",
+									"description": "Movie",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Seats",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"theaterName\": \"Cineplex Theater\",\n  \"movieName\": \"Man of Steel (film)\",\n  \"showtime\": \"03:00 PM\",\n  \"occupiedSeats\": [2, 3, 1001, 5, 6]\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/update_seats",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"update_seats"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
