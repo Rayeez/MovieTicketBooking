@@ -1,0 +1,35 @@
+# Movie Information Scraper
+
+This Python script allows you to scrape movie names and their associated image URLs from a Wikipedia page using BeautifulSoup and requests. The provided code is tailored for extracting data from the DC Extended Universe and Marvel Cinematic Universe movie lists. You can easily adapt it for other Wikipedia pages.
+
+## Installation
+
+Before using the script, make sure to install the required Python libraries:
+
+```bash
+pip install beautifulsoup4
+pip install requests
+```
+
+# Usage
+Define the Wikipedia page URL by setting the wikipedia_url variable to the URL of the desired Wikipedia page. Comment/uncomment the appropriate URL depending on whether you want to scrape DC or Marvel movie data.
+
+Run the script, and it will:
+
+Send an HTTP GET request to the specified Wikipedia page.
+Parse the page content using BeautifulSoup.
+Locate the table containing the movie names.
+Extract movie names and their corresponding image URLs.
+The extracted data will be printed to the console, with movie names and image URLs listed for each movie. You can modify the code to save this data to a file or use it as needed.
+
+Example
+Here's an example of the extracted data format:
+
+Movie Name: Avengers: Endgame
+Image URL: https://upload.wikimedia.org/wikipedia/en/c/cf/Avengers_Endgame_poster.jpg
+
+Movie Name: Spider-Man: Far From Home
+Image URL: https://upload.wikimedia.org/wikipedia/en/9/9e/Spider-Man_Far_From_Home_poster.jpg
+
+Disclaimer
+Please respect Wikipedia's usage policies and make sure your scraping activities adhere to their terms of service.

@@ -1,0 +1,867 @@
+[
+  {
+    "movies": [
+      {
+        "id": 1,
+        "name": "Man of Steel (film)",
+        "duration": "2 hours 23 minutes",
+        "ratings": 4.3,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Man_of_Steel_%28film%29_poster.jpg/220px-Man_of_Steel_%28film%29_poster.jpg",
+        "description": "Superman's origin story and battle against General Zod.",
+        "releaseDate": "June 14, 2013",
+        "reviews": [
+          {
+            "user": "User1",
+            "rating": 4.0,
+            "comment": "Great movie!"
+          },
+          {
+            "user": "User2",
+            "rating": 5.0,
+            "comment": "Awesome film!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Batman v Superman: Dawn of Justice",
+        "duration": "2 hours 31 minutes",
+        "ratings": 4.1,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Batman_v_Superman_Dawn_of_Justice_poster.jpg/220px-Batman_v_Superman_Dawn_of_Justice_poster.jpg",
+        "description": "The clash between Batman and Superman with the threat of Lex Luthor.",
+        "releaseDate": "March 25, 2016",
+        "reviews": [
+          {
+            "user": "User3",
+            "rating": 4.5,
+            "comment": "Epic showdown!"
+          },
+          {
+            "user": "User4",
+            "rating": 3.8,
+            "comment": "Decent movie."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Suicide Squad (2016 film)",
+        "duration": "2 hours 3 minutes",
+        "ratings": 3.9,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Suicide_Squad_%282016_film%29_poster.png/220px-Suicide_Squad_%282016_film%29_poster.png",
+        "description": "A group of antiheroes team up for a dangerous mission.",
+        "releaseDate": "August 5, 2016",
+        "reviews": [
+          {
+            "user": "User5",
+            "rating": 3.7,
+            "comment": "Fun but chaotic."
+          },
+          {
+            "user": "User6",
+            "rating": 4.2,
+            "comment": "Harley Quinn stole the show!"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Wonder Woman (2017 film)",
+        "duration": "2 hours 21 minutes",
+        "ratings": 4.5,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/Wonder_Woman_%282017_film%29_poster.jpg",
+        "description": "Diana Prince's journey to becoming Wonder Woman.",
+        "releaseDate": "June 2, 2017",
+        "reviews": [
+          {
+            "user": "User7",
+            "rating": 4.7,
+            "comment": "Gal Gadot is amazing!"
+          },
+          {
+            "user": "User8",
+            "rating": 4.3,
+            "comment": "Great superhero origin story."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Justice League (film)",
+        "duration": "2 hours 0 minutes",
+        "ratings": 4.0,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Justice_League_%28film%29_poster.jpg",
+        "description": "Superheroes unite to save the world from a catastrophic threat.",
+        "releaseDate": "November 17, 2017",
+        "reviews": [
+          {
+            "user": "User9",
+            "rating": 3.5,
+            "comment": "Mixed bag, but fun."
+          },
+          {
+            "user": "User10",
+            "rating": 4.2,
+            "comment": "Enjoyed the team-up."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Aquaman (film)",
+        "duration": "2 hours 23 minutes",
+        "ratings": 4.2,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Aquaman_%28film%29_poster.jpg",
+        "description": "Arthur Curry's journey to become Aquaman and protect Atlantis.",
+        "releaseDate": "December 21, 2018",
+        "reviews": [
+          {
+            "user": "User11",
+            "rating": 4.4,
+            "comment": "Visually stunning!"
+          },
+          {
+            "user": "User12",
+            "rating": 3.9,
+            "comment": "Entertaining underwater adventure."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Shazam! (film)",
+        "duration": "2 hours 12 minutes",
+        "ratings": 4.4,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia.org/wiki/c/c2/Shazam%21_%28film%29_poster.jpg",
+        "description": "A teenager transforms into an adult superhero with magical powers.",
+        "releaseDate": "April 5, 2019",
+        "reviews": [
+          {
+            "user": "User13",
+            "rating": 4.3,
+            "comment": "Hilarious and heartwarming."
+          },
+          {
+            "user": "User14",
+            "rating": 4.5,
+            "comment": "Zachary Levi is perfect as Shazam!"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Birds of Prey (2020 film)",
+        "duration": "1 hour 49 minutes",
+        "ratings": 3.9,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1c/Birds_of_Prey_%282020_film%29_poster.jpg",
+        "description": "Harley Quinn and a group of vigilantes team up to save a young girl.",
+        "releaseDate": "February 7, 2020",
+        "reviews": [
+          {
+            "user": "User15",
+            "rating": 3.8,
+            "comment": "Fun but a bit chaotic."
+          },
+          {
+            "user": "User16",
+            "rating": 4.0,
+            "comment": "Margot Robbie shines as Harley Quinn."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Wonder Woman 1984",
+        "duration": "2 hours 31 minutes",
+        "ratings": 3.8,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/Wonder_Woman_1984_poster.png",
+        "description": "Wonder Woman faces new challenges in the 1980s.",
+        "releaseDate": "December 25, 2020",
+        "reviews": [
+          {
+            "user": "User17",
+            "rating": 3.5,
+            "comment": "Decent sequel."
+          },
+          {
+            "user": "User18",
+            "rating": 4.2,
+            "comment": "Gal Gadot is always amazing as Wonder Woman."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Zack Snyder's Justice League",
+        "duration": "4 hours 2 minutes",
+        "ratings": 4.7,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia.org/wiki/6/60/Zack_Snyder%27s_Justice_League.jpg",
+        "description": "A director's cut of the Justice League movie with additional footage.",
+        "releaseDate": "March 18, 2021",
+        "reviews": [
+          {
+            "user": "User19",
+            "rating": 4.8,
+            "comment": "Epic and long, but worth it!"
+          },
+          {
+            "user": "User20",
+            "rating": 4.6,
+            "comment": "A much-improved version of the original."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "The Suicide Squad (film)",
+        "duration": "2 hours 12 minutes",
+        "ratings": 4.2,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/06/The_Suicide_Squad_%28film%29_poster.jpg",
+        "description": "A new team of antiheroes embarks on a dangerous mission.",
+        "releaseDate": "August 5, 2021",
+        "reviews": [
+          {
+            "user": "User21",
+            "rating": 4.0,
+            "comment": "Wild and violent!"
+          },
+          {
+            "user": "User22",
+            "rating": 4.4,
+            "comment": "James Gunn's touch is evident."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Black Adam (film)",
+        "duration": "2 hours 20 minutes",
+        "ratings": 4.1,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Black_Adam_%28film%29_poster.jpg/220px-Black_Adam_%28film%29_poster.jpg",
+        "description": "The origin story of the antihero Black Adam.",
+        "releaseDate": "October 21, 2022",
+        "reviews": [
+          {
+            "user": "User23",
+            "rating": 3.8,
+            "comment": "Dwayne Johnson is great, but the story could be better."
+          },
+          {
+            "user": "User24",
+            "rating": 4.2,
+            "comment": "An exciting introduction to Black Adam."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Shazam! Fury of the Gods",
+        "duration": "2 hours 12 minutes",
+        "ratings": 4.3,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Shazam%21_Fury_of_the_Gods_%282023%29_Main_Poster.png/220px-Shazam%21_Fury_of_the_Gods_%282023%29_Main_Poster.png",
+        "description": "Shazam faces new supernatural threats with his family.",
+        "releaseDate": "June 2, 2023",
+        "reviews": [
+          {
+            "user": "User25",
+            "rating": 4.4,
+            "comment": "Great family superhero movie."
+          },
+          {
+            "user": "User26",
+            "rating": 4.5,
+            "comment": "Zachary Levi is charming as Shazam."
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "The Flash (film)",
+        "duration": "2 hours 22 minutes",
+        "ratings": 4.2,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/The_Flash_%28film%29_poster.jpg/220px-The_Flash_%28film%29_poster.jpg",
+        "description": "Barry Allen becomes the superhero known as The Flash.",
+        "releaseDate": "November 4, 2022",
+        "reviews": [
+          {
+            "user": "User27",
+            "rating": 4.1,
+            "comment": "Exciting introduction to the Flash."
+          },
+          {
+            "user": "User28",
+            "rating": 4.3,
+            "comment": "Ezra Miller is a great Flash."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Blue Beetle (film)",
+        "duration": "2 hours 0 minutes",
+        "ratings": 3.9,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Blue_Beetle_poster.jpg/220px-Blue_Beetle_poster.jpg",
+        "description": "A young hero discovers the Blue Beetle scarab and gains powers.",
+        "releaseDate": "November 18, 2022",
+        "reviews": [
+          {
+            "user": "User29",
+            "rating": 3.7,
+            "comment": "An interesting new hero."
+          },
+          {
+            "user": "User30",
+            "rating": 4.0,
+            "comment": "Blue Beetle's story has potential."
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Iron Man (2008 film)",
+        "duration": "2 hours 6 minutes",
+        "ratings": 4.6,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg",
+        "description": "Tony Stark becomes Iron Man and fights a terrorist organization.",
+        "releaseDate": "May 2, 2008",
+        "reviews": [
+          {
+            "user": "User31",
+            "rating": 4.8,
+            "comment": "The birth of the MCU!"
+          },
+          {
+            "user": "User32",
+            "rating": 4.5,
+            "comment": "Robert Downey Jr. is perfect as Iron Man."
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "The Incredible Hulk (film)",
+        "duration": "1 hour 52 minutes",
+        "ratings": 3.9,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/The_Incredible_Hulk_%28film%29_poster.jpg",
+        "description": "Bruce Banner transforms into the Hulk and goes on the run.",
+        "releaseDate": "June 13, 2008",
+        "reviews": [
+          {
+            "user": "User33",
+            "rating": 3.5,
+            "comment": "A different take on the Hulk."
+          },
+          {
+            "user": "User34",
+            "rating": 4.0,
+            "comment": "Not as strong as other MCU films."
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Iron Man 2",
+        "duration": "2 hours 4 minutes",
+        "ratings": 4.0,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg",
+        "description": "Tony Stark faces new challenges as Iron Man.",
+        "releaseDate": "May 7, 2010",
+        "reviews": [
+          {
+            "user": "User35",
+            "rating": 3.9,
+            "comment": "A decent sequel."
+          },
+          {
+            "user": "User36",
+            "rating": 4.1,
+            "comment": "Whiplash is a compelling villain."
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Thor (film)",
+        "duration": "1 hour 55 minutes",
+        "ratings": 4.2,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Thor_%28film%29_poster.jpg",
+        "description": "Thor, the god of thunder, faces banishment on Earth.",
+        "releaseDate": "May 6, 2011",
+        "reviews": [
+          {
+            "user": "User37",
+            "rating": 4.4,
+            "comment": "A fun introduction to Thor."
+          },
+          {
+            "user": "User38",
+            "rating": 4.0,
+            "comment": "Norse mythology meets the MCU."
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Captain America: The First Avenger",
+        "duration": "2 hours 4 minutes",
+        "ratings": 4.3,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
+        "description": "Steve Rogers becomes Captain America during World War II.",
+        "releaseDate": "July 22, 2011",
+        "reviews": [
+          {
+            "user": "User39",
+            "rating": 4.2,
+            "comment": "A patriotic hero's journey."
+          },
+          {
+            "user": "User40",
+            "rating": 4.4,
+            "comment": "Chris Evans is perfect as Cap."
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "The Avengers (2012 film)",
+        "duration": "2 hours 23 minutes",
+        "ratings": 4.6,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
+        "description": "Superheroes team up to battle Loki and his army.",
+        "releaseDate": "May 4, 2012",
+        "reviews": [
+          {
+            "user": "User41",
+            "rating": 4.7,
+            "comment": "An epic superhero ensemble."
+          },
+          {
+            "user": "User42",
+            "rating": 4.5,
+            "comment": "Joss Whedon's direction shines."
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Iron Man 3",
+        "duration": "2 hours 10 minutes",
+        "ratings": 4.0,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg",
+        "description": "Tony Stark faces a new threat in the form of the Mandarin.",
+        "releaseDate": "May 3, 2013",
+        "reviews": [
+          {
+            "user": "User43",
+            "rating": 3.9,
+            "comment": "A decent continuation of the Iron Man story."
+          },
+          {
+            "user": "User44",
+            "rating": 4.1,
+            "comment": "The Mandarin twist is interesting."
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Thor: The Dark World",
+        "duration": "1 hour 52 minutes",
+        "ratings": 3.8,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Thor_The_Dark_World_poster.jpg",
+        "description": "Thor faces a dark elf threat and reunites with Jane Foster.",
+        "releaseDate": "November 8, 2013",
+        "reviews": [
+          {
+            "user": "User45",
+            "rating": 3.7,
+            "comment": "A weaker entry in the MCU."
+          },
+          {
+            "user": "User46",
+            "rating": 4.0,
+            "comment": "Loki is still a highlight."
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Captain America: The Winter Soldier",
+        "duration": "2 hours 16 minutes",
+        "ratings": 4.4,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Captain_America_The_Winter_Soldier_poster.jpg",
+        "description": "Captain America battles a new threat within S.H.I.E.L.D.",
+        "releaseDate": "April 4, 2014",
+        "reviews": [
+          {
+            "user": "User47",
+            "rating": 4.5,
+            "comment": "A thrilling espionage thriller."
+          },
+          {
+            "user": "User48",
+            "rating": 4.3,
+            "comment": "Winter Soldier is a great antagonist."
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Guardians of the Galaxy (film)",
+        "duration": "2 hours 1 minute",
+        "ratings": 4.5,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg",
+        "description": "A group of misfits becomes unlikely heroes to save the galaxy.",
+        "releaseDate": "August 1, 2014",
+        "reviews": [
+          {
+            "user": "User49",
+            "rating": 4.6,
+            "comment": "A hilarious and heartwarming space adventure."
+          },
+          {
+            "user": "User50",
+            "rating": 4.7,
+            "comment": "I am Groot!"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Avengers: Age of Ultron",
+        "duration": "2 hours 21 minutes",
+        "ratings": 4.3,
+        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg",
+        "description": "The Avengers face an AI villain, Ultron.",
+        "releaseDate": "May 1, 2015",
+        "reviews": [
+          {
+            "user": "User51",
+            "rating": 4.2,
+            "comment": "A solid sequel with great action."
+          },
+          {
+            "user": "User52",
+            "rating": 4.4,
+            "comment": "Ultron is a memorable villain."
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "theater",
+    "theaters": [
+      {
+        "theaterName": "Cineplex Theater",
+        "theaterRating": "4",
+        "movies": [
+          {
+            "name": "Man of Steel (film)",
+            "showtimes": {
+              "12:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "03:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "06:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "09:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$12.00"
+          },
+          {
+            "name": "Batman v Superman: Dawn of Justice",
+            "ticketPrice": "$14.00",
+            "showtimes": {
+              "01:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "04:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "07:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            }
+          },
+          {
+            "name": "Suicide Squad (2016 film)",
+            "showtimes": {
+              "02:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "05:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "08:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$11.50"
+          }
+        ]
+      },
+      {
+        "theaterName": "Starlight Cinema",
+        "theaterRating": "3.2",
+        "movies": [
+          {
+            "name": "Wonder Woman (2017 film)",
+            "showtimes": {
+              "01:30 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "04:30 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "07:30 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$13.50"
+          },
+          {
+            "name": "Justice League (film)",
+            "showtimes": {
+              "12:45 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "03:45 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "06:45 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$13.00"
+          },
+          {
+            "name": "Aquaman (film)",
+            "showtimes": {
+              "12:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "03:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "06:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$12.50"
+          }
+        ]
+      },
+      {
+        "theaterName": "City CinemaPlex",
+        "theaterRating": "4.8",
+        "movies": [
+          {
+            "name": "Shazam! (film)",
+            "showtimes": {
+              "01:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "04:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "07:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$13.00"
+          },
+          {
+            "name": "Birds of Prey (2020 film)",
+            "showtimes": {
+              "12:30 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "03:30 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "06:30 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$12.50"
+          },
+          {
+            "name": "Wonder Woman 1984",
+            "showtimes": {
+              "01:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "04:30 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "07:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$14.00"
+          }
+        ]
+      },
+      {
+        "theaterName": "Royal Cinemas",
+        "theaterRating": "2.9",
+        "movies": [
+          {
+            "name": "Zack Snyder's Justice League",
+            "showtimes": {
+              "12:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "03:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "06:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$15.00"
+          },
+          {
+            "name": "The Suicide Squad (film)",
+            "showtimes": {
+              "02:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "05:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "08:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$13.50"
+          },
+          {
+            "name": "Black Adam (film)",
+            "showtimes": {
+              "02:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "05:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "08:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$12.50"
+          }
+        ]
+      },
+      {
+        "theaterName": "Grand Theater",
+        "theaterRating": "5",
+        "movies": [
+          {
+            "name": "Shazam! Fury of the Gods",
+            "showtimes": {
+              "02:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "05:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "08:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$14.00"
+          },
+          {
+            "name": "The Flash (film)",
+            "showtimes": {
+              "02:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "05:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "08:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$13.50"
+          },
+          {
+            "name": "Blue Beetle (film)",
+            "showtimes": {
+              "02:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "05:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "08:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$12.00"
+          }
+        ]
+      },
+      {
+        "theaterName": "Mega Cineplex",
+        "theaterRating": "3.2",
+        "movies": [
+          {
+            "name": "Iron Man (2008 film)",
+            "showtimes": {
+              "12:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "03:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "06:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$13.50"
+          },
+          {
+            "name": "The Incredible Hulk (film)",
+            "showtimes": {
+              "01:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "04:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "07:00 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$13.00"
+          },
+          {
+            "name": "Iron Man 2",
+            "showtimes": {
+              "02:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "05:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              },
+              "08:15 PM": {
+                "occupiedSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+              }
+            },
+            "ticketPrice": "$14.00"
+          }
+        ]
+      }
+    ]
+  }
+]

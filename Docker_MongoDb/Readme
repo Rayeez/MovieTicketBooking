@@ -1,0 +1,21 @@
+# MongoDB Docker Setup
+
+## Installation
+
+1. **Install Docker:** If you don't have Docker installed, download and install it from [Docker's official website](https://docs.docker.com/get-docker/).
+
+2. **Run the Docker Compose Configuration:** Use the following command to start the MongoDB container using Docker Compose:
+
+   ```bash
+   docker-compose up -d
+# Verify MongoDB
+## Docker Dashboard: 
+You can check the status of the MongoDB container in the Docker Dashboard or by running docker ps in your terminal.
+
+## Access MongoDB: 
+MongoDB will be accessible at localhost:27017.
+
+# Stopping MongoDB
+To stop and remove the MongoDB container, use the following command:
+```
+docker-compose down

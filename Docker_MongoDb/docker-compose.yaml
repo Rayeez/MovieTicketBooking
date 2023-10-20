@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  my-mongodb:
+    image: mongo
+    container_name: my-mongodb
+    ports:
+      - "27017:27017"
+    networks:
+      - my-network
+    volumes:
+      - my-mongo-data:/data/db
+      - my-mongo-config:/data/configdb
+
+networks:
+  my-network:
+    driver: bridge
+
+volumes:
+  my-mongo-data:
+  my-mongo-config:
+
+
+# docker pull mongo
+# docker run --name my-mongodb -d -p 27017:27017 mongo
